@@ -9,8 +9,7 @@ const ItemList = ({ data }) => {
   const handleCartItems = (item) => {
     dispatch(addItem(item));
   };
-  console.log(data);
-  
+
   return (
     <div>
       {data?.map((item) => (
